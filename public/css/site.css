@@ -1,0 +1,19 @@
+body, h1, h2, h3,h4, h5, h6, p, a, div, html, li {font-family:Classic serif};
+/*body, html{background:#272b30;}*/
+
+/*
+    Home Page
+*/
+#title {font-size: }
+#title-tag {display: inline-block;margin-top:-10px;font-size: 20px;}
+#title-tag span {padding-left: 10px;}
+#homePic {margin-bottom: 20px;}
+#homeContent{margin-bottom:40px;}
+
+@media (min-width:375) {}
+@media (min-width:425) {}
+@media (min-width:768) {}
+@media (min-width:1024) {}
+@media (min-width:1275) {}
+@media (min-width:1440) {}
+@media (min-width:2560) {}
