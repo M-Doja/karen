@@ -1,5 +1,6 @@
 body, h1, h2, h3,h4, h5, h6, p, a, div, html, li {font-family:Classic serif;}
-/*body, html{background:#272b30;}*/
+body, html{background:#000;}
+/*li, a {color:black}*/
 
 /*
     Home Page
@@ -7,17 +8,50 @@ body, h1, h2, h3,h4, h5, h6, p, a, div, html, li {font-family:Classic serif;}
 #title {font-size:3em;color:white }
 #title-tag {display: inline-block;margin-top:-10px;font-size: 20px;color:white;}
 #title-tag span {padding-left: 10px;}
-#homePic {margin:20px auto;}
+#homePic {margin:20px auto;border-radius:8px;width: 275px;}
+#hmHdr{margin-top:30px;margin-bottom:20px;font-weight: bold}
 /*#homeHead{background-image:url('/img/banner-1050602_1920.jpg') }*/
+#aboutBody{background-image:url('/img/printing-plate-1030849_1920.jpg');background-size:100%;height:680px; }
+.aboutWrap{background-color:rgba(0, 0, 0, 0.8); height: 85%}
+.about{}
+#svcBody{background-image:url('/img/bokeh-848533_1920.jpg') }
+#conBody{background-image:url('/img/banner-1050602_1920.jpg');background-size:100%;height:680px;background-repeat:no-repeat }
 #homeHead{background-image:url('/img/bokeh-848533_1920.jpg') }
 #homeBody{background-image:url('/img/web-1012467_1920.jpg') }
-/*#homeHead{background-image:url('/img/banner-1050602_1920.jpg') }*/
 #homeContent{margin-bottom:40px;}
+.scLk img{margin-right:10px;}
+#fb{margin-right: 20px;}
+#table{margin-top:20px;}
+/*tab active*/
+ md-tabs > md-tabs-wrapper > md-tabs-canvas > md-pagination-wrapper > md-tab-item:not([disabled]).md-active{color:black;}
+/*tab non-active*/
+ md-tabs > md-tabs-wrapper > md-tabs-canvas > md-pagination-wrapper > md-tab-item:not([disabled]){color: white;}
 
-@media (min-width:375) {}
-@media (min-width:425) {}
-@media (min-width:768) {}
-@media (min-width:1024) {}
-@media (min-width:1275) {}
-@media (min-width:1440) {}
-@media (min-width:2560) {}
+ /*
+  service page
+ */
+.svcBox{height: 120px;width:250px;background-color:rgba(0, 0, 0, 0.5);display: inline-block;margin:5px;border-radius:5px;}
+#svcBox-wrap{margin:5px auto 20px auto;}
+
+
+/*
+    about page
+*/
+
+.about .p {padding-bottom:120px;}
+@media (min-width:375px) {}
+@media (min-width:425px) {#homePic{}}
+@media (min-width:768px) {#homePic{display: inline-block;margin:10px;}#homeContent p {margin-top:20px;padding:0 20px;}#title-tag{font-size: 25px;}.about{margin-top: -300px;padding-left: 320px;}}
+@media (min-width:1024px) {#NAV li{font-size: 2.25em;}#title{font-size:3.8em;}}
+@media (min-width:1275px) {#title-tag{font-size: 30px;}}
+@media (min-width:1440px) {}
+@media (min-width:2560px) {}
+  .tabsdemoDynamicHeight md-content {
+  background-color: transparent !important; }
+  .tabsdemoDynamicHeight md-content md-tabs {
+    background: #f6f6f6;
+    border: 1px solid #e1e1e1; }
+    .tabsdemoDynamicHeight md-content md-tabs md-tabs-wrapper {
+      background: white; }
+  .tabsdemoDynamicHeight md-content h1:first-child {
+    margin-top: 0; }
