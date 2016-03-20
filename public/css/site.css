@@ -1,13 +1,17 @@
-body, h1, h2, h3,h4, h5, h6, p, a, div, html, li {font-family:Classic serif};
+body, h1, h2, h3,h4, h5, h6, p, a, div, html, li {font-family:Classic serif;}
 /*body, html{background:#272b30;}*/
 
 /*
     Home Page
 */
-#title {font-size: }
-#title-tag {display: inline-block;margin-top:-10px;font-size: 20px;}
+#title {font-size:3em;color:white }
+#title-tag {display: inline-block;margin-top:-10px;font-size: 20px;color:white;}
 #title-tag span {padding-left: 10px;}
-#homePic {margin-bottom: 20px;}
+#homePic {margin:20px auto;}
+/*#homeHead{background-image:url('/img/banner-1050602_1920.jpg') }*/
+#homeHead{background-image:url('/img/bokeh-848533_1920.jpg') }
+#homeBody{background-image:url('/img/web-1012467_1920.jpg') }
+/*#homeHead{background-image:url('/img/banner-1050602_1920.jpg') }*/
 #homeContent{margin-bottom:40px;}
 
 @media (min-width:375) {}

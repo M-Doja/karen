@@ -7,7 +7,7 @@
 
 	function HomeController(HomeFactory) {
 		var vm = this;
-		vm.title = 'WRITING RENOVATIONS';
+		vm.title = '';
 		vm.user = {}
 
 	 vm.openNav = function() {
